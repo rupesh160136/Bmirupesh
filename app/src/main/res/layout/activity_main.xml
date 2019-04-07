@@ -16,6 +16,7 @@
         android:textSize="20dp" />
 
     <EditText
+        android:id="@+id/etheight"
         android:inputType="number"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -35,6 +36,7 @@
         android:textSize="20dp" />
 
     <EditText
+        android:id="@+id/etweight"
         android:inputType="number"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -47,6 +49,7 @@
         android:text="(centimeters)" />
 
     <Button
+        android:id="@+id/btnclick"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
