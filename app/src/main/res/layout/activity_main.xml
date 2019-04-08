@@ -17,7 +17,6 @@
 
     <EditText
         android:id="@+id/etheight"
-        android:inputType="number"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp" />
@@ -37,7 +36,6 @@
 
     <EditText
         android:id="@+id/etweight"
-        android:inputType="number"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp" />
@@ -46,7 +44,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
-        android:text="(centimeters)" />
+        android:text="(kilogram)" />
 
     <Button
         android:id="@+id/btnclick"
@@ -68,6 +66,7 @@
         android:gravity="center"/>
 
     <TextView
+        android:id="@+id/tvout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="30dp"
